@@ -88,7 +88,7 @@ jobs:
           allure_results: ./allure-results
           gh_pages: gh-pages
           allure_report: allure-report
-          allure_history: ./reports/chrome-desktop/allure/allure-history
+          allure_history: ./reports/android/allure/allure-history
           keep_reports: 10
 
       - name: Prepare AllureReports deploy to Github Pages
@@ -97,4 +97,4 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./reports/chrome-desktop/allure/allure-history
+          PUBLISH_DIR: ./reports/android/allure/allure-history
