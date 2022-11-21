@@ -1,0 +1,14 @@
+# Setup
+title: HIBERUS
+tagline: DIARIO AS - DIGITAL
+baseurl: "/finalPage"
+url: "https://mkosakovskyy.github.io"
+paginate: 1
+locale: "es"
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
